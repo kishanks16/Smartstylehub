@@ -1,0 +1,18 @@
+body , html{
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-image: url('./compontent/assets/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; /* Cover the entire viewport */
+  background-position: center;
+  background-attachment: fixed; /* Fix the background image */
+  height: 100vh;
+}
+.cardContainer {
+  width: fit-content;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
